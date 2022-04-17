@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CourseApp</string>
+    <string name="currency">Валюта</string>
+    <string name="code">Код</string>
+    <string name="units">Ед.</string>
+    <string name="course">Курс</string>
 </resources>
