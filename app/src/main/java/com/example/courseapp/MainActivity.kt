@@ -1,19 +1,15 @@
 package com.example.courseapp
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import com.example.courseapp.adapter.MainAdapter
 import com.example.courseapp.model.CurrencyItem
-import com.example.courseapp.viewModel.MainViewModel
+import com.example.courseapp.viewmodel.MainViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.jsoup.Jsoup
-import java.io.IOException
 
 class MainActivity() : AppCompatActivity() {
 
